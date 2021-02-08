@@ -25,13 +25,6 @@ namespace Lab_Bonus_13_Game_Character
                 character.Play();
                 characterCount++;
             }
-            
-
         }
-
-        
-
-        
-        
     }
 }
