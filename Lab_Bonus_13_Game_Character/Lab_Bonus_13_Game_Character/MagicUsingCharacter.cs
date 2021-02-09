@@ -10,6 +10,8 @@ namespace Lab_Bonus_13_Game_Character
         {
             MagicalEnergy = magicalEnergy;
         }
+
+        public int MagicalEnergy { get; }
         public override void Play()
         {
             Console.WriteLine($"This character's name is {Name} + his/her strength is {Strength} + their intelligence is {Intelligence} + this character's magical energy is {MagicalEnergy}");

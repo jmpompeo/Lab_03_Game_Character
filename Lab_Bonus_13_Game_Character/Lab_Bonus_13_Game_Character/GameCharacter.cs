@@ -13,11 +13,9 @@ namespace Lab_Bonus_13_Game_Character
             Intelligence = intelligence;
         }
         public string Name { get;}
-        public object Strength { get;}
-        public object Intelligence { get; }
-        public string WeaponType { get; set; }
-        public int MagicalEnergy { get; set; }
-        public int SpellNumber { get; set; }
+        public int Strength { get;}
+        public int Intelligence { get; }
+
         public virtual void Play()
         {
             Console.WriteLine($"This character's name is {Name} + his/her strength is {Strength} + their intelligence is {Intelligence} ");
